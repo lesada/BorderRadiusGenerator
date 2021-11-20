@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Border Radius Generator</title>
 </head>
@@ -21,22 +22,36 @@
     </fieldset>
 
     <fieldset id="radiusFieldset">
-        <label for="topLeftRadius">Top-Left Radius</label>
-        <input type="number" id="topLeftRadius" name="topLeftRadius" min="0" max="100" value="5">
-        <input type="number" id="topRightRadius" name="topRightRadius" min="0" max="100" value="5">
-        <label for="topRightRadius">Top-Right Radius</label>
+        <div class="top d-flex justify-content-around">
+            <div>
+                <label for="topLeftRadius">Top-Left Radius</label>
+                <input type="number" id="topLeftRadius" name="topLeftRadius" min="0" max="100" value="5">
+            </div>
+            <div>
+                <input type="number" id="topRightRadius" name="topRightRadius" min="0" max="100" value="5">
+                <label for="topRightRadius">Top-Right Radius</label>
+            </div>
+        </div>
         <div class="preview">
         </div>
-        <label for="bottomLeftRadius">Bottom-Left Radius</label>
-        <input type="number" id="bottomLeftRadius" name="bottomLeftRadius" min="0" max="100" value="5">
-        <input type="number" id="bottomRightRadius" name="bottomRightRadius" min="0" max="100" value="5">
-        <label for="bottomRightRadius">Bottom-Right Radius</label>
+        <div class="top d-flex justify-content-around">
+            <div>
+                <label for="bottomLeftRadius">Bottom-Left Radius</label>
+                <input type="number" id="bottomLeftRadius" name="bottomLeftRadius" min="0" max="100" value="5">
+            </div>
+            <div>
+                <input type="number" id="bottomRightRadius" name="bottomRightRadius" min="0" max="100" value="5">
+                <label for="bottomRightRadius">Bottom-Right Radius</label>
+            </div>
+        </div>
     </fieldset>
 
 
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 <script src="script.js"></script>
 
 </html>

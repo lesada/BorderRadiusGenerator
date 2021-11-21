@@ -96,3 +96,12 @@ function updateMeasure(newMeasure) {
 
     getStyle();
 }
+
+function copy() {
+     
+    myCss.select();
+    myCss.setSelectionRange(0, 99999); /* For mobile devices */
+
+    navigator.clipboard.writeText(myCss.value);
+
+  }

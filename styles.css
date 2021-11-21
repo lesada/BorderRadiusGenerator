@@ -39,17 +39,22 @@ textarea:focus, input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 textarea{
     resize: none;
     width: 315px;
-    height: 250px;
+    height: 200px;
     border-radius: 2%;
     border: none;
     background-color: #525252;
     color: #f0f0f0;
     padding: 15px;
+}
+
+button {
+    margin-top: 0.2em;
 }
 
 

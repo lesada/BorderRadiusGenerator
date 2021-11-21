@@ -7,7 +7,7 @@ body {
 
 h1 {
    font-size: 2.5em;
-   margin: 1em;
+   margin: 0.5em;
 }
 
 input::-webkit-outer-spin-button,
@@ -25,18 +25,32 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-#sameValueFieldset {
-    margin: 1em;
-}
 
-#radiusFieldset {
-    margin: 1em;
+#sameValueFieldset {
+    margin: 0.5em;
 }
 
 .preview {
-    height: 250px;
-    width: 250px;
-    margin: 1em auto;
+    width: 420px;
+    height: 400px;
+    margin: 0 auto;
     border-radius: 5%;
     background-color: rgb(153, 199, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+textarea{
+    resize: none;
+    width: 315px;
+    height: 250px;
+    border-radius: 2%;
+    border: none;
+    background-color: #525252;
+    color: #f0f0f0;
+    padding: 15px;
+}
+
+
+

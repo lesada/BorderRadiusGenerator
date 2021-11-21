@@ -32,7 +32,7 @@
             <option value="vmax">vmax</option>
             <option value="vmin">vmin</option>
             <option value="vw">vw</option>
-          </select>
+        </select>
     </fieldset>
 
     <fieldset id="sameValueFieldset">
@@ -44,22 +44,30 @@
         <div class="top d-flex justify-content-around">
             <div>
                 <label for="topLeftRadius">Top-Left Radius</label>
-                <input type="number" id="topLeftRadius" name="topLeftRadius" min="0" max="100" value="5" onchange="start(topLeftRadius)">
+                <input type="number" id="topLeftRadius" name="topLeftRadius" min="0" max="100" value="5"
+                    onchange="start(topLeftRadius)">
             </div>
             <div>
-                <input type="number" id="topRightRadius" name="topRightRadius" min="0" max="100" value="5" onchange="start(topRightRadius)">
+                <input type="number" id="topRightRadius" name="topRightRadius" min="0" max="100" value="5"
+                    onchange="start(topRightRadius)">
                 <label for="topRightRadius">Top-Right Radius</label>
             </div>
         </div>
         <div class="preview">
+            <textarea name="myCss" id="myCss" readonly="readonly">element {
+        border-radius: 5%
+    }
+            </textarea>
         </div>
         <div class="top d-flex justify-content-around">
             <div>
                 <label for="bottomLeftRadius">Bottom-Left Radius</label>
-                <input type="number" id="bottomLeftRadius" name="bottomLeftRadius" min="0" max="100" value="5" onchange="start(bottomLeftRadius)">
+                <input type="number" id="bottomLeftRadius" name="bottomLeftRadius" min="0" max="100" value="5"
+                    onchange="start(bottomLeftRadius)">
             </div>
             <div>
-                <input type="number" id="bottomRightRadius" name="bottomRightRadius" min="0" max="100" value="5" onchange="start(bottomRightRadius)">
+                <input type="number" id="bottomRightRadius" name="bottomRightRadius" min="0" max="100" value="5"
+                    onchange="start(bottomRightRadius)">
                 <label for="bottomRightRadius">Bottom-Right Radius</label>
             </div>
         </div>

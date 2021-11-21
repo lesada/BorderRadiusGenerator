@@ -14,7 +14,26 @@
 <body>
     <h1>Border Radius Generator</h1>
 
-    <p>All the values are in pixels</p>
+    <fieldset id="measuresFieldset">
+        <label for="measure">Select a measure</label>
+        <select name="measure" id="measure" onchange="updateMeasure(this.value)">
+            <option value="%">%</option>
+            <option value="ch">ch</option>
+            <option value="cm">cm</option>
+            <option value="em">em</option>
+            <option value="ex">ex</option>
+            <option value="in">in</option>
+            <option value="mm">mm</option>
+            <option value="pc">pc</option>
+            <option value="pt">pt</option>
+            <option value="px">px</option>
+            <option value="rem">rem</option>
+            <option value="vh">vh</option>
+            <option value="vmax">vmax</option>
+            <option value="vmin">vmin</option>
+            <option value="vw">vw</option>
+          </select>
+    </fieldset>
 
     <fieldset id="sameValueFieldset">
         <input type="checkbox" id="sameValue" name="sameValue" checked>

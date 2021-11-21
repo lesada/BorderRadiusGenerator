@@ -34,9 +34,9 @@ textarea:focus, input:focus{
 }
 
 .preview {
-    height: 40vh;
-    width: 40vw;
+    height: 250px;
+    width: 250px;
     margin: 1em auto;
-    border-radius: 5px;
+    border-radius: 5%;
     background-color: rgb(153, 199, 197);
 }
